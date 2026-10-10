@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.12.0.dev20260408+cu128",
+    "transformers": "5.17.0",
+    "huggingface-hub": "1.32.0",
+    "numpy": "2.5.2"
+  },
+  "gpu": "RTX 5060 Laptop 8GB",
+  "note": "Recorded existing training environment; not a portable Python installation"
+}

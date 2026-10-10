@@ -1,0 +1,4 @@
+torch>=2.7
+transformers>=4.45
+huggingface-hub
+numpy

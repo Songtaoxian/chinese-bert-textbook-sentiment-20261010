@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/d2l-ai/d2l-zh/e6b18ccea71451a55fcd861d7b96fddf2587b09a/chapter_preliminaries/linear-algebra.md",
+      "sha256": "ee341ac1c6c050238360e8f0ac3f592209e52497792cd0dec669d79edee8f6ef"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/d2l-ai/d2l-zh/e6b18ccea71451a55fcd861d7b96fddf2587b09a/chapter_preliminaries/calculus.md",
+      "sha256": "afbb49d0908ae9d23f12572e83044ed736d6aa4fc4a6754d76c183f24334a87d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/d2l-ai/d2l-zh/e6b18ccea71451a55fcd861d7b96fddf2587b09a/chapter_preliminaries/probability.md",
+      "sha256": "4be0c0ea1e801bc346480d373dae628259b650b640f46d6cea610a83a3f0c5cd"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qweraqq/NLPCC2014_sentiment/34065bb439077d1affe8ae8d6dca20af9081f7bd/sample.negative.txt",
+      "sha256": "844a25226ff58236e29df38d4bb4db2d1b30d48f48ce647879e2a6d383e31c48"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qweraqq/NLPCC2014_sentiment/34065bb439077d1affe8ae8d6dca20af9081f7bd/sample.positive.txt",
+      "sha256": "3313dfd6e6dd4c6bbfc628532396b6493b8e7afd7c2e5bd8682de889f196438f"
+    }
+  ],
+  "seed": 42,
+  "train_rows": 3000,
+  "val": 400,
+  "test": 400,
+  "train_gold_sentiment": 2000,
+  "weak_neutral_unique": 121,
+  "weak_neutral_oversampled": 1000,
+  "textbook_train_paragraphs": 102,
+  "textbook_holdout_paragraphs": 25,
+  "sentiment_labels": "NLPCC2014 positive/negative source files; 0 negative, 2 positive",
+  "neutral_labels": "Heuristically selected factual textbook sentences; weak labels, not gold",
+  "textbook_test_labels": "None; predictions are not accuracy evaluation",
+  "evaluation_scope": "Gold validation/test include only positive and negative; neutral accuracy unknown",
+  "split": "Exact deduplication; conflicting texts removed; random disjoint subsets; near duplicates may remain",
+  "rejected_source": "lights-think dataset: README mapping contradicted by inspected samples",
+  "mlm_checkpoint": "github_experiment_v1/textbook_mlm; 60 updates on textbook training paragraphs"
+}

@@ -1,0 +1,10 @@
+{
+  "base_model": "google-bert/bert-base-chinese",
+  "max_length": 128,
+  "best_epoch": 1,
+  "labels": {
+    "0": "负面",
+    "1": "中性",
+    "2": "正面"
+  }
+}

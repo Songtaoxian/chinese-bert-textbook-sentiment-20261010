@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.cache/
+models/hf_cache/
+*.safetensors
+*.bin
+*.zip
+.env
+.env.*
